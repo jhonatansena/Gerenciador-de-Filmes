@@ -159,6 +159,16 @@
       "urlIMDb": "",
       "genero": "Ficção cientifica",
       "id": 16
+    },
+    {
+      "titulo": "Star Wars: Episode IX - The Rise of Skywalker",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dtLancamento": "2019-12-20T03:00:00.000Z",
+      "descricao": "The surviving members of the resistance face the First Order once again, and the legendary conflict between the Jedi and the Sith reaches its peak bringing the Skywalker saga to its end.\n",
+      "nota": 6.6,
+      "urlIMDb": "https://www.imdb.com/title/tt2527338/",
+      "genero": "Aventura",
+      "id": 17
     }
   ]
 }
