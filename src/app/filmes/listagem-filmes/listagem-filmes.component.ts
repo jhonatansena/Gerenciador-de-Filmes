@@ -3,6 +3,8 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 import { FilmesService } from 'src/app/core/filmes.service';
 import { ConfigParams } from 'src/app/shared/config-params';
 import { Filme } from 'src/app/shared/models/filme';
+import { debounceTime } from 'rxjs/operators';
+
 
 @Component({
   selector: 'dio-listagem-filmes',
@@ -10,6 +12,9 @@ import { Filme } from 'src/app/shared/models/filme';
   styleUrls: ['./listagem-filmes.component.scss']
 })
 export class ListagemFilmesComponent implements OnInit {
+
+  readonly semFoto = 'https://www.termoparts.com.br/wp-content/uploads/2017/10/no-image.jpg';
+
 
  config: ConfigParams = {
    pagina: 0,
@@ -29,7 +34,9 @@ export class ListagemFilmesComponent implements OnInit {
       }
     );
 
-    this.filtrosListagem.get('texto').valueChanges.subscribe((val: string) => {
+    this.filtrosListagem.get('texto').valueChanges
+    .pipe(debounceTime(400))
+    .subscribe((val: string) => {
       this.config.pesquisa = val;
       this.resetarConsulta();
       

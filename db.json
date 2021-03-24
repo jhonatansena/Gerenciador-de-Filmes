@@ -169,6 +169,16 @@
       "urlIMDb": "https://www.imdb.com/title/tt2527338/",
       "genero": "Aventura",
       "id": 17
+    },
+    {
+      "titulo": "teste da descrição",
+      "urlFoto": "",
+      "dtLancamento": "2021-03-09T03:00:00.000Z",
+      "descricao": "teste1\nteste2\nteste3\nteste4",
+      "nota": 0,
+      "urlIMDb": "",
+      "genero": "Comédia",
+      "id": 18
     }
   ]
 }
