@@ -77,7 +77,14 @@ export class CadastroFilmesComponent implements OnInit {
     }
 
     const filme = this.cadastro.getRawValue() as Filme;
-    this.salvar(filme);
+    if(this.id){
+      filme.id = this.id;
+      this.editar(filme);
+    }else{
+      this.salvar(filme);
+    }
+  
+    
   }
 
   reiniciarForm(): void {
@@ -115,6 +122,30 @@ export class CadastroFilmesComponent implements OnInit {
       }
       this.dialog.open(AlertaComponent, config);
 
+    });
+  }
+
+  private editar(filme: Filme): void {
+    this.filmeService.editar(filme).subscribe(() => {
+      const config = {
+        data: {
+          descricao: 'Seu registro foi atualizado com sucesso!',
+          btnSucesso: 'Ir para a listagem',
+        } as Alerta
+      };
+      const dialogRef = this.dialog.open(AlertaComponent, config);
+      dialogRef.afterClosed().subscribe(() => this.router.navigateByUrl('filmes'));
+    },
+    () => {
+      const config = {
+        data: {
+          titulo: 'Erro ao editar o registro!',
+          descricao: 'Não conseguimos editar seu registro, favor tentar novamente mais tarde',
+          corBtnSucesso: 'warn',
+          btnSucesso: 'Fechar'
+        } as Alerta
+      };
+      this.dialog.open(AlertaComponent, config);
     });
   }
 
