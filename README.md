@@ -1,8 +1,6 @@
-# Curso Intermediário de Angular - Digital Innovation One
+# Gerenciador de Filmes
 
-Esse curso foi feito para a plataforma [Digital Innovation One](https://digitalinnovation.one/)
-
-O curso consiste em um sistema de filmes, com a possibilidade de cadastros, edições, listagem e visualização dos cursos de outros usuários.
+O gerenciador de Filmes com a possibilidade de cadastros, edições, listagem e visualização dos cursos de outros usuários.
 
 ## Instalação
 
