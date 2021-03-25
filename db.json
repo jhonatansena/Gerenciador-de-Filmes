@@ -101,16 +101,6 @@
       "id": 10
     },
     {
-      "titulo": "Justice League ",
-      "urlFoto": "https://www.imdb.com/title/tt0974015/mediaviewer/rm1061640448?ref_=tt_ov_i",
-      "dtLancamento": "2017-11-17T03:00:00.000Z",
-      "descricao": "Fueled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne enlists the help of his new-found ally, Diana Prince, to face an even greater enemy.\n",
-      "nota": 6.2,
-      "urlIMDb": "https://www.imdb.com/title/tt0974015/?ref_=tt_mv_close",
-      "genero": "Ação",
-      "id": 11
-    },
-    {
       "titulo": "Batman v Superman: Dawn of Justice ",
       "urlFoto": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
       "dtLancamento": "2016-03-25T03:00:00.000Z",
@@ -119,16 +109,6 @@
       "urlIMDb": "https://www.imdb.com/title/tt2975590/?ref_=hm_tpks_tt_i_6_pd_tp1_cp",
       "genero": "Ação",
       "id": 12
-    },
-    {
-      "titulo": "teste",
-      "urlFoto": "sdfdsfdsfdsfdsfsdfds",
-      "dtLancamento": "2021-03-03T03:00:00.000Z",
-      "descricao": "isto é um teste e deve ser apagado",
-      "nota": 9,
-      "urlIMDb": "lsdkjflsdkjfsdlkfjdslkfjsdlfkjsdlk",
-      "genero": "Terror",
-      "id": 13
     },
     {
       "titulo": "teste",
@@ -151,16 +131,6 @@
       "id": 15
     },
     {
-      "titulo": "testeoutro",
-      "urlFoto": "",
-      "dtLancamento": "2021-03-09T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Ficção cientifica",
-      "id": 16
-    },
-    {
       "titulo": "Star Wars: Episode IX - The Rise of Skywalker",
       "urlFoto": "https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_UX182_CR0,0,182,268_AL_.jpg",
       "dtLancamento": "2019-12-20T03:00:00.000Z",
@@ -169,16 +139,6 @@
       "urlIMDb": "https://www.imdb.com/title/tt2527338/",
       "genero": "Aventura",
       "id": 17
-    },
-    {
-      "titulo": "teste da descrição",
-      "urlFoto": "",
-      "dtLancamento": "2021-03-09T03:00:00.000Z",
-      "descricao": "teste1\nteste2\nteste3\nteste4",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Comédia",
-      "id": 18
     }
   ]
 }
